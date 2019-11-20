@@ -37,3 +37,19 @@ Run `setup.sh`
 
 which setups up the DUNE `cvmfs` repository and `gallery`.
 
+## Convert to 'Marley-style' JSON file
+
+Use `dump2json.py`.
+
+```
+[ tmw@dunegpvm02 art2hepevt ]$ python dump2json.py -h
+usage: Convert art-root Marley file into Marley-json format
+       [-h] -i INPUT -o OUTPUT
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Input art-root file
+  -o OUTPUT, --output OUTPUT
+                        Output json file name
+```
